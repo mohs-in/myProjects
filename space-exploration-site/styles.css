@@ -1,0 +1,43 @@
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/astronaut.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    position: relative;
+}
+
+.btn {
+    padding: 6px 12px;
+    background: #B22234;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.underline {
+    color: #3C3B6E;
+}
+
+#spacex-logo {
+    width: 150px;
+}
+ 
+.span-clr {
+    color: #b8860b;
+}
+
+#title {
+    text-shadow: 123px 135px 35px 35px gray;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 82vh;
+    margin-right: 10px;
+}
