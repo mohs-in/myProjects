@@ -1,0 +1,19 @@
+@font-face {
+    font-family: happyMonkey;
+    src: url(HappyMonkey-Regular.ttf);
+}
+
+body {
+    text-align: center;
+    font-family: happyMonkey;
+    background: #4d8265;
+    color: #000000;
+
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border: 6px solid #ab9ea0;
+    border-radius: 50%;
+}
