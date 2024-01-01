@@ -1,6 +1,6 @@
 @font-face {
     font-family: happyMonkey;
-    src: url(HappyMonkey-Regular.ttf);
+    src: url(./resources/HappyMonkey-Regular.ttf);
 }
 
 body {
@@ -59,4 +59,19 @@ h2, h4 {
 
 .gift-hint {
     margin: 0;
+}
+
+.gift-img {
+    margin: 0 auto;
+    background-image: url(./resources/gift.jpg);
+    background-size: contain;
+    border: 3px solid palegoldenrod;
+    width: 445px;
+    height: 335px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.gift-img:hover {
+    background-image: url(./resources/fish.jpg);
 }
