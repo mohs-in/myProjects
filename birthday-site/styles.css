@@ -58,7 +58,7 @@ h2, h4 {
 }
 
 .gift-hint {
-    margin: 0;
+    margin: 0px 0px 10px 0px;
 }
 
 .gift-img {
@@ -74,4 +74,9 @@ h2, h4 {
 
 .gift-img:hover {
     background-image: url(./resources/fish.jpg);
+}
+
+.footer {
+    font-style: italic;
+    font-size: small;
 }
