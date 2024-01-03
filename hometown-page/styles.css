@@ -1,0 +1,106 @@
+@font-face {
+    font-family: happyMonkey;
+    src: url(./resources/HappyMonkey-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: happyMonkey;
+}
+.intro {
+    margin-bottom: 0 ;
+    background-image: url(./resources/hometown.png);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    color: #ab9ea0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.place-img {
+    width: 150px;
+    height: 150px;
+    border: 6px solid #404E7C;
+    border-radius: 50%;
+}
+
+#intro-h1 {
+    background-color: #86CB92;
+    color: #260F26;
+}
+
+#intro-h1, #intro-h3 {
+    padding: 7px 10px 7px 10px;
+    border-radius: 13px;
+}
+
+#intro-h3 {
+    background-color: #404E7C;
+    color: #86CB92;
+}
+
+#places-h2 {
+    text-align: center;
+    margin: 0;
+    padding-top: 10px ;
+    color: #86CB92;
+}
+
+.places {
+    margin-top: 0;
+    background: url(./resources/stars.png);
+    background-size: cover;
+}
+
+.place {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    color: #7fc6e7;
+}
+
+#placeOne, #placeTwo, #placeThree {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.places-p {
+    font-weight: lighter;
+    font-size: smaller;
+    color: lightcyan;
+}
+
+.guide {
+    background-color: #160916;
+    
+}
+
+.content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.details {
+    width: 20%;
+    padding: 10px 15px 10px 15px;
+}
+
+#content-p {
+    font-size: smaller;
+}
+
+#guide-img {
+    height: 150px;
+    width: 150px;
+}
