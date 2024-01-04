@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #160916;
+    flex-direction: column;
+    color: #ab9ea0;
+}
+
+button{
+    padding: 7px 10px 7px 10px;
+    background-color: #86CB92;
+    border: 3px solid #ab9ea0 ;
+    color: #160916;   
+}
+
