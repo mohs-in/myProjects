@@ -1,8 +1,6 @@
 let homeCounter = document.getElementById("home-counter");
 let guestCounter = document.getElementById("guest-counter");
 
-let homeCount = 0;
-let guestCount = 0;
 function addOneHome() {
     let cur = parseInt(document.getElementById("home-counter").textContent);
     cur += 1;
@@ -37,4 +35,9 @@ function addThreeGuest() {
     let cur = parseInt(document.getElementById("guest-counter").textContent);
     cur += 3;
     document.getElementById("guest-counter").textContent = cur;
+}
+
+function reset() {
+    document.getElementById("home-counter").textContent = 0;
+    document.getElementById("guest-counter").textContent = 0;
 }
