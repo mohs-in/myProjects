@@ -7,4 +7,8 @@ function increment() {
     countEl.innerText = count;
 }
 
-
+function save() {
+    entries.innerText += " " + count + " - ";
+    countEl.innerText = 0;
+    count = 0;
+}
