@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Cursedtimer;
+    src: url(./resources/CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    background-color: #1B244A;
+    font-family: Cursedtimer;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.team-card {
+    margin: 50px 50px 50px 50px;
+}
+
+.team-card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.counter {
+    padding: 0% 25% 5% 25%;
+    height: 130px;
+    background-color: #000;
+    color: #F94F6D;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-family: Cursedtimer;
+    background-color: #1B244A;
+    color: #9BAAD9;
+    border: 1px solid #9BAAD9;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
