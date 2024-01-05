@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 5%;
 }
 
 .team-card {
@@ -24,7 +24,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #fff;
+    color: #839ed7;
 }
 
 .counter {
@@ -39,8 +39,8 @@ body {
 button {
     font-family: Cursedtimer;
     background-color: #1B244A;
-    color: #9BAAD9;
-    border: 1px solid #9BAAD9;
+    color: #62c5a4;
+    border: 1px solid #62c5a4;
     border-radius: 5px;
     padding: 5px 10px 5px 10px;
 }
