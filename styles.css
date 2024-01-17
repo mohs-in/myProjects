@@ -1,19 +1,35 @@
 body {
     text-align: center;
+    background-color: #111426;
+    color: #FFFFFF;
 }
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
+
+.table-el {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
+
+.heading {
+    background-color: #D19DFC;
+    color: #240b38;
+    border-radius: 50%;
 }
-th {
-    background-color: #f2f2f2;
+
+p{
+    padding: 3px 30px 3px 30px;
 }
+
 a {
     text-decoration: none;
+    color: #FFFFFF;
 }
+
+a:hover {
+    color: #D19DFC;
+}
+
+#blank-space {
+    margin-top: 50px;
+}
+
