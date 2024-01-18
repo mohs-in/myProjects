@@ -1,15 +1,25 @@
 var messageEl = document.getElementById("message-el");
 var sumEl = document.querySelector("#sum-el");
 var cardsEl = document.querySelector("#cards-el");
+let cards = []
+let sum = 0;
 let message = "";
-let firstCard = getRandomCard();
-let secondCard = getRandomCard();
-let cards = [firstCard, secondCard]
-let sum = firstCard + secondCard
 let hasBlackJack = false
-let isAlive = true
+let isAlive = false
+
+let player = {
+    name: "MS",
+    chips: 121
+}
+let playerEl = document.querySelector("#player-el");
+playerEl.textContent = player.name + ": $" + player.chips;
 
 function startGame() {
+    isAlive = true
+    let firstCard = getRandomCard();
+    let secondCard = getRandomCard();
+    cards = [firstCard, secondCard]
+    sum = firstCard + secondCard
     renderGame();
 }
 
@@ -24,20 +34,22 @@ function renderGame() {
         message = "Do you want to draw a new card? ";
     } else if (sum === 21) {
         message = "Wohoo! You've got Blackjack! ";
-        // hasBlackJack = true;
+        hasBlackJack = true;
     } else {
         message = "You're out of the game! ";
-        // isAlive = false;
+        isAlive = false;
     }
     messageEl.textContent = message;
 }
 
 function newCard() {
-    console.log("Drawing a new card from the deck!");
-    var cardVar = getRandomCard();
-    sum += cardVar;
-    cards.push(cardVar);
-    renderGame();
+    if(hasBlackJack === false && isAlive === true) {
+        console.log("Drawing a new card from the deck!");
+        var cardVar = getRandomCard();
+        sum += cardVar;
+        cards.push(cardVar);
+        renderGame();
+    }
 }
 
 function getRandomCard() {
@@ -48,3 +60,4 @@ function getRandomCard() {
         return 10;
     else return randomValue; 
 }
+
