@@ -14,4 +14,8 @@ input {
 button {
     background-color: #5f9341;
     color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    margin-top: 5px;
 }
