@@ -1,17 +1,17 @@
 import React from 'react'
 import starLogo from '../src/assets/star.png'
-import zaferes from '../src/assets/katie-zaferes.png'
-function Card() {
+
+function Card(props) {
     return (
         <div className="card">
-            <div className="card--img"><img src={zaferes} alt="Zaferes Photo" /></div>
+            <div className="card--img"><img src={props.img} alt="Zaferes Photo" /></div>
             <div className="card--details">
                 <div className="card--rating">
                     <img src={starLogo} alt="Star Logo" />
-                    <p>5.0 <span>(6)∙USA</span></p>
+                    <p>{props.rating} <span>({props.reviewCount})∙{props.country}</span></p>
                 </div>
-                <p id='tagline'>Life lessons from Katie Zaferes</p>
-                <p id='pricing'><span>From $136 </span>/ person</p>
+                <p id='tagline'>{props.title}</p>
+                <p id='pricing'><span>From ${props.price} </span>/ person</p>
             </div>
         </div>
     )
