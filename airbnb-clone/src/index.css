@@ -46,10 +46,21 @@ body{
   font-weight: 300;
 }
 
+.card--lists {
+  display: flex;
+  wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
 .card {
   padding: 20px 0px 40px 40px;
   margin-top: 0;
   max-width: 175px;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  position: relative;
 }
 
 .card--img > img {
@@ -95,3 +106,4 @@ body{
 #pricing > span {
   font-weight: 600;
 }
+
