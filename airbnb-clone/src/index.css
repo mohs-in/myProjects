@@ -4,7 +4,7 @@
 
 body{
   margin: 0;
-  font-family: "Poppings", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar {
@@ -48,14 +48,15 @@ body{
 
 .card--lists {
   display: flex;
-  wrap: nowrap;
+  flex-wrap: nowrap;
   gap: 20px;
   overflow-x: auto;
 }
 
 .card {
-  padding: 20px 0px 40px 40px;
-  margin-top: 0;
+  padding: 0px 0px 70px 0px;
+  margin-top: 10px;
+  margin-left: 40px;
   max-width: 175px;
   display: flex;
   flex-direction: column;
