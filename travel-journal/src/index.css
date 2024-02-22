@@ -2,3 +2,35 @@
   box-sizing: border-box;
 }
 
+.main--component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3% 3%;
+}
+
+.final-score {
+  width: 550px;
+  height: 704px;
+  border: 2px solid black;
+  background-color: aqua;
+  font-family: 'Inter', sans-serif;
+}
+
+.header {
+  background-color: #F55A5A;
+  margin: 0;
+}
+
+.header--title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 550px;
+  height: 55px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 0.9rem;
+  letter-spacing: -0.075em;
+}
