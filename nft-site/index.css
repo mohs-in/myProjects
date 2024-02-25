@@ -1,0 +1,42 @@
+body{
+    font-size: 16px;
+    color: #2b283a;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #5f29a3;
+    padding: 45px 0;
+
+}
+
+#header--h1 {
+    color: whitesmoke;
+    margin: 0;
+    font-size: 36px;
+}
+
+#header--h3 {
+    margin: 0;
+    color: #d0aaff;
+    font-size: 23px;
+}
+
+.sectionOne {
+    padding: 45px 0;
+}
+
+.sectionOne > img {
+    width: 100%;
+}
+
+.sectionOne > h2 {
+    color: #2b283a;
+    font-size: 24px;
+    margin-top: 0;
+}
+ 
+ 
+
+
