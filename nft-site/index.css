@@ -37,6 +37,9 @@ body{
     margin-top: 0;
 }
  
- 
+.sectionOne > p > a {
+    text-decoration: dotted underline;
+    color: #ef5839;
+}
 
 
