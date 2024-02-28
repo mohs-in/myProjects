@@ -3,43 +3,43 @@
 #### Note: I'm still working on the responsive-ness of the web pages
 
 ## 
-[NFT Site] [nft]
+[NFT Site]
 
-[Travel Journal] [travel]
+[Travel Journal] 
 
-[AirBnb Overview Page] [airbnb]
+[AirBnb Overview Page] 
 
-[React Info Site] [reactinfo]
+[React Info Site] 
 
-[Digi Card] [digi]
+[Digi Card] 
 
-[BlackJack Game] [blackjack]
+[BlackJack Game] 
 
-[Basketball Scorecard] [basketcard]
+[Basketball Scorecard] 
 
-[Passenger Counter] [pcounter]
+[Passenger Counter] 
 
-[QR Code Component] [qr]
+[QR Code Component]
 
-[Space Exploration Site] [space]
+[Space Exploration Site]
 
-[Hometown Page] [hometown]
+[Hometown Page] 
 
-[Card Overview] [cardo]
+[Card Overview]
 
-[Basic Birthday Site] [bday]
+[Basic Birthday Site] 
 
 
-[airbnb]: <https://airbnbclone.mohs.ink/>
-[bday]: <https://projects.mohs.ink/birthday-site/birthday.html>
-[cardo]: <https://projects.mohs.ink/card-overview/index.html>
-[hometown]: <https://projects.mohs.ink/hometown-page/index.html>
-[qr]: <https://projects.mohs.ink/qr-code-component/index.html>
-[pcounter]: <https://projects.mohs.ink/passenger-counter/index.html>
-[space]: <https://projects.mohs.ink/space-exploration-site/space.html>
-[basketcard]: <https://projects.mohs.ink/basketball-scorecard/index.html>
-[blackjack]: <https://projects.mohs.ink/blackjack-game/index.html>
-[digi]: <https://digicard.mohs.ink/>
-[reactinfo]: <https://reactinfosite.mohs.ink/>
-[travel]: <https://trjournal.mohs.ink/>
-[nft]: <https://nftsite.mohs.ink>
+[AirBnb Overview Page]: <https://airbnbclone.mohs.ink/>
+[Basic Birthday Site]: <https://projects.mohs.ink/birthday-site/birthday.html>
+[Card Overview]: <https://projects.mohs.ink/card-overview/index.html>
+[Hometown Page]: <https://projects.mohs.ink/hometown-page/index.html>
+[QR Code Component]: <https://projects.mohs.ink/qr-code-component/index.html>
+[Passenger Counter]: <https://projects.mohs.ink/passenger-counter/index.html>
+[Space Exploration Site]: <https://projects.mohs.ink/space-exploration-site/space.html>
+[Basketball Scorecard]: <https://projects.mohs.ink/basketball-scorecard/index.html>
+[BlackJack Game]: <https://projects.mohs.ink/blackjack-game/index.html>
+[Digi Card]: <https://digicard.mohs.ink/>
+[React Info Site]: <https://reactinfosite.mohs.ink/>
+[Travel Journal]: <https://trjournal.mohs.ink/>
+[NFT Site]: <https://nftsite.mohs.ink>
