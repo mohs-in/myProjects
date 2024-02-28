@@ -39,13 +39,10 @@ body{
     color: #d0aaff;
     
 }
-
-#header {
-    padding: 45px 0;
-}
  
 .sectionTwo, 
-footer, .sectionOne {
+footer,
+.container {
     padding: 45px 0;
 }
 
@@ -63,6 +60,7 @@ footer, .sectionOne {
 #p-link:focus {
     color: #2b283a;
 }
+
 .btn {
     padding: 10px 19px;
     border-radius: 4.6px;
