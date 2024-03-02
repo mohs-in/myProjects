@@ -1,8 +1,30 @@
 body {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
     width: 570px;
     margin: 0 auto;
+}
+
+img {
+    width: 220px;
+    height: 220px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+.h1span {
+    font-weight: 200;
+}
+
+.h2span {
+    font-weight: 200;
 }
