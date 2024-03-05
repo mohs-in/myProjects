@@ -42,4 +42,4 @@
 [Digi Card]: <https://digicard.mohs.ink/>
 [React Info Site]: <https://reactinfosite.mohs.ink/>
 [Travel Journal]: <https://trjournal.mohs.ink/>
-[NFT Site]: <https://nftsite.mohs.ink>
+[NFT Site]: <https://nft.mohs.ink>
