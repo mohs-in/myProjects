@@ -14,8 +14,6 @@ function Tile(props) {
                 <p>{props.desc}</p>
                 <button className='btn'>Book</button>
             </div>
-            
-
         </section> 
     )
 }
