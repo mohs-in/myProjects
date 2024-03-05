@@ -4,8 +4,20 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+nav { 
+    background-color: #242424;
+    color: whitesmoke;
+}
+
 ul {
     padding: 25px 25px;
+    margin-top: 0;
+    display: flex;
+    list-style: none;
+}
+
+#burger-icon {
+    margin-left: auto;
 }
 
 .icon {
@@ -27,29 +39,16 @@ h1 {
 .caption {
     margin: 0px 25px;
     gap: 10px;
-    display: flex;
     justify-content: center;
 }
 
-nav {
-    
-    background-color: #242424;
-    color: whitesmoke;
-}
-
-ul {
-    margin-top: 0;
+.caption,
+.img-bg{
     display: flex;
-    flex-direction: row;
-}
-
-ul li {
-    list-style: none;
 }
 
 .item-banner {
     color: whitesmoke;
-    background-color: #cd6858;
     padding: 5px 10px;
     position: absolute;
     top: 0;
@@ -60,10 +59,14 @@ ul li {
     position: relative;
 }
 
+.item-banner,
+.btn {
+    background-color: #cd6858;
+}
+
 .btn {
     padding: 10px 15px;
     color: whitesmoke;
-    background-color: #cd6858;
     font-weight: 700;
     border: none;
     cursor: pointer;
@@ -73,3 +76,21 @@ ul li {
 .item-img {
     display: block;
 }
+
+.img-bg {
+    background-color: #dda15e;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #999;
+    position: fixed;
+    bottom: 6px;
+    right: 6px;
+}
+
+.img {
+    width: 50%;
+    margin: auto;
+}
+
