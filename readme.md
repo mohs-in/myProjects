@@ -3,6 +3,8 @@
 #### Note: I'm still working on the responsive-ness of the web pages
 
 ## 
+[Co Working Space]
+
 [NFT Site]
 
 [Travel Journal] 
@@ -43,3 +45,4 @@
 [React Info Site]: <https://reactinfosite.mohs.ink/>
 [Travel Journal]: <https://trjournal.mohs.ink/>
 [NFT Site]: <https://nft.mohs.ink>
+[Co Working Space]: <https://workspace.mohs.ink>
