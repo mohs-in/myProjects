@@ -3,10 +3,12 @@
   --white: #fff;
   --dark-blue: #1F2937;
   --green: #4ADF86;
+  --green-light: #55F991;
   --grey: #D5D4D8;
   --grey-dark1: #2f3e53;
   --grey-dark2: #273549;
   --green-dark: #10B981;
+
 }
 
 body {
@@ -80,12 +82,30 @@ hr {
   width: 100%;
 }
 
-.passwrds p {
+.passOne, .passTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 6px;
-  width: 80%;
   height: 2.5em;
   background-color: var(--grey-dark2);
-} 
+  font-size: 1rem;
+  padding: 0.5em 0.5em; 
+  color: var(--green-light);
+  width: 80%;
+  margin: 0.5rem;
+}
+
+.copytoClip {
+  background-color: grey;
+}
+
+.passOne img,
+.passTwo img {
+  width: 1em;
+  height: 1em;
+  margin-left: auto;
+}
 
 @media (min-width: 480px) {
   body {
@@ -101,5 +121,9 @@ hr {
   .passwrds p {
     margin: 0.5rem;
     width: 14em;
+  }
+
+  hr {
+    width: 36em;
   }
 }
